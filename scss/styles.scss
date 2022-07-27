@@ -167,6 +167,7 @@ p {
     display: block;
     max-width: fit-content;
     margin: 0 auto;
+    text-align: center;
     &:hover {
         background-color: lightgray;
         transition: 0.5s;
@@ -379,10 +380,12 @@ p {
     }
     &__name {
         margin-bottom: 10px;
+        font-family: 'Work Sans', sans-serif;
     }
     &__price {
         font-size: 24px;
         font-weight: 300;
+        font-family: 'Work Sans', sans-serif;
     }
     &__container {
         margin: 15px;
@@ -484,6 +487,7 @@ p {
     &__article {
         width: 90%;
         margin-bottom: 50px;
+        font-family: 'Work Sans', sans-serif;
         @media screen and (max-width: 991px) {
             width: 100%;
         }
@@ -555,6 +559,7 @@ p {
         display: block;
         text-decoration: none;
         color: black;
+        font-family: 'Work Sans', sans-serif;
         &:hover {
             color: grey;
             transition: 0.5s;
@@ -609,6 +614,7 @@ p {
     }
     &__heading {
         margin-bottom: 10px;
+        font-family: 'Work Sans', sans-serif;
     }
     @media screen and (max-width: 479px) {
         flex-direction: column;
@@ -653,7 +659,8 @@ p {
     }
     &__heading {
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif;
     }
     &__paragraph {
         margin-bottom: 5px;
@@ -661,8 +668,9 @@ p {
     &__link {
         color: black;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 14px;
         color: grey;
+        font-family: 'Work Sans', sans-serif;
         &:hover {
             color: black;
             transition: 0.5s;
