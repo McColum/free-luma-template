@@ -227,7 +227,7 @@ p {
             width: 100%;
         }
         &-main {
-            background: url(/img/2.jpg) center center / cover no-repeat;
+            background: url(../img/2.jpg) center center / cover no-repeat;
             height: 700px;
             margin-bottom: 30px;
             &:hover {
@@ -238,7 +238,7 @@ p {
             }
         }
         &-side {
-            background: url(img/1.jpg) center center / cover no-repeat;
+            background: url(../img/1.jpg) center center / cover no-repeat;
             height: 520px;
             &:hover {
                 background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(../img/1.jpg) center center / cover no-repeat;
