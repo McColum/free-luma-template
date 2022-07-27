@@ -144,7 +144,7 @@ p {
 }
 
 .hero {
-    background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(/img/hero.jpg) center center / cover no-repeat;
+    background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(img/hero.jpg) center center / cover no-repeat;
     padding: 150px 0;
     &__heading {
         text-align: center;
@@ -227,21 +227,21 @@ p {
             width: 100%;
         }
         &-main {
-            background: url(/img/2.jpg) center center / cover no-repeat;
+            background: url(img/2.jpg) center center / cover no-repeat;
             height: 700px;
             margin-bottom: 30px;
             &:hover {
-                background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(/img/2.jpg) center center / cover no-repeat;
+                background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(img/2.jpg) center center / cover no-repeat;
             }
             @media screen and (max-width: 767px) {
                 height: 460px;
             }
         }
         &-side {
-            background: url(/img/1.jpg) center center / cover no-repeat;
+            background: url(img/1.jpg) center center / cover no-repeat;
             height: 520px;
             &:hover {
-                background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(/img/1.jpg) center center / cover no-repeat;
+                background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(img/1.jpg) center center / cover no-repeat;
             }
             @media screen and (max-width: 767px) {
                 height: 460px;
@@ -410,7 +410,7 @@ p {
 
 .parallax {
     height: 360px;
-    background: url(/img/parallax.jpg) fixed center / cover no-repeat;
+    background: url(img/parallax.jpg) fixed center / cover no-repeat;
     margin-bottom: 100px;
     @media screen and (max-width: 991px) {
         height: 260px;

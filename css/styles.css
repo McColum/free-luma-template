@@ -272,8 +272,8 @@ p {
 }
 
 .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 29, 0.45)), to(rgba(24, 24, 29, 0.45))), url(/img/hero.jpg) center center/cover no-repeat;
-  background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(/img/hero.jpg) center center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 29, 0.45)), to(rgba(24, 24, 29, 0.45))), url(img/hero.jpg) center center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(img/hero.jpg) center center/cover no-repeat;
   padding: 150px 0;
 }
 
@@ -403,14 +403,14 @@ p {
 }
 
 .showcase__item-main {
-  background: url(/img/2.jpg) center center/cover no-repeat;
+  background: url(img/2.jpg) center center/cover no-repeat;
   height: 700px;
   margin-bottom: 30px;
 }
 
 .showcase__item-main:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 29, 0.45)), to(rgba(24, 24, 29, 0.45))), url(/img/2.jpg) center center/cover no-repeat;
-  background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(/img/2.jpg) center center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 29, 0.45)), to(rgba(24, 24, 29, 0.45))), url(img/2.jpg) center center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(img/2.jpg) center center/cover no-repeat;
 }
 
 @media screen and (max-width: 767px) {
@@ -420,13 +420,13 @@ p {
 }
 
 .showcase__item-side {
-  background: url(/img/1.jpg) center center/cover no-repeat;
+  background: url(img/1.jpg) center center/cover no-repeat;
   height: 520px;
 }
 
 .showcase__item-side:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 29, 0.45)), to(rgba(24, 24, 29, 0.45))), url(/img/1.jpg) center center/cover no-repeat;
-  background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(/img/1.jpg) center center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 29, 0.45)), to(rgba(24, 24, 29, 0.45))), url(img/1.jpg) center center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(24, 24, 29, 0.45), rgba(24, 24, 29, 0.45)), url(img/1.jpg) center center/cover no-repeat;
 }
 
 @media screen and (max-width: 767px) {
@@ -656,7 +656,7 @@ p {
 
 .parallax {
   height: 360px;
-  background: url(/img/parallax.jpg) fixed center/cover no-repeat;
+  background: url(img/parallax.jpg) fixed center/cover no-repeat;
   margin-bottom: 100px;
 }
 
